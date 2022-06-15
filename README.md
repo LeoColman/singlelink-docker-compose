@@ -1,6 +1,7 @@
 # singlelink-docker-compose
 
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/leocolman/singlelink-docker?label=docker-hub)
+![Docker Pulls](https://img.shields.io/docker/pulls/leocolman/singlelink-docker)
 
 Unofficial image and instructions to run Singlelink in a Docker-Compose environment
 
