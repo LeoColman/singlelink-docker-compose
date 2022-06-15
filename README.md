@@ -1,8 +1,12 @@
 # singlelink-docker-compose
 
-Unnoficial image and instructions to run Singlelink in a Docker-Compose environment
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/leocolman/singlelink-docker?label=docker-hub)
+
+Unofficial image and instructions to run Singlelink in a Docker-Compose environment
 
 # Using this image
+
+Take a look at the sample file [docker-compose.yml](docker-compose.yml). It is a fully configured setup using this image.
 
 ### Required Environment variables
 
