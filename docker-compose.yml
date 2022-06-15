@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: singlelink
+      POSTGRES_USER: singlelink
+      POSTGRES_PASSWORD: secret
+
+  singlelink:
+    image: leocolman/singlelink-docker:1.0.0
+    depends_on:
+      - postgres
+    ports:
+      - 3000:3000
+    environment:
+      PGHOST: postgres
+      PGPORT: 5432
+      PGDATABASE: singlelink
+      PGUSER: singlelink
+      PGPASSWORD: secret
+
+      META_TITLE: Singlelink
+      META_DESC: My Singlelink Docker Instance
+      META_IMG:
+      BRANDING: "true"
+
+      SECRET: jwt_secret
+      PASSWORD: singlelink-password
