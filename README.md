@@ -1,3 +1,6 @@
+# Use Official Image Instead
+https://github.com/singlelink-co/Singlelink/blob/master/docker-compose.yml
+
 # singlelink-docker-compose
 
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/leocolman/singlelink-docker?label=docker-hub)
